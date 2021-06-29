@@ -130,6 +130,9 @@ header {
   margin-left: 1rem;
 }
 
+.text-white{
+  color: var(--White-text);
+}
 .btn-white {
   padding: 0.9rem 1.8rem;
   background: var(--White-text);
@@ -191,6 +194,50 @@ section p {
   color: var(--Very-dark-gray-blue);
 }
 
+
+.bg-section{
+  background-image: url(../img/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 650px;
+  background-position-x: 50rem;
+}
+
+.size-box{
+  max-width: 560px;
+}
+
+.bg-banner{
+  height: 25rem;
+  background-image: url(../img/bg-pattern-circles.svg);
+  background-size: 900px;
+  background-repeat: no-repeat;
+  background-position-y: -25rem;
+  background-position-x: -13rem;
+  background-color: var(--Very-dark-gray-blue);
+  position: relative;
+  border-bottom-left-radius: 90px;
+  border-top-right-radius: 90px;
+}
+
+.grid-box{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.img-phones{
+ margin-top: -4rem;
+ margin-left: -8rem;
+}
+
+.text-box{
+  margin-top: 7.5rem;
+  margin-left: 1rem;
+}
+.text-line{
+  line-height: 1rem;
+  color: rgb(231, 230, 230) !important;
+  font-weight: 300px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
